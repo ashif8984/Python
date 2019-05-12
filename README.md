@@ -15,6 +15,10 @@ These programs are part of my intial hands-on with Python programming language.
 # Run notebooks
 If you want to run these notebooks but without installing jupyter on your machine you can use Google Colab. 
 
+Author:    [Ashif Eqbal]
 
-Author:    [Ashif Eqbal](https://www.linkedin.com/in/ashif-eqbal-4ba85278/)
-Contact:  ashif8984@gmail.com
+Contact | Link
+------------- | -------------
+LinkedIn:  |https://www.linkedin.com/in/ashif-eqbal-4ba85278/
+Pinterest:  | https://in.pinterest.com/ashifeqbal/pins/
+Email:  | ashif8984@gmail.com

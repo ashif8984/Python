@@ -34,5 +34,5 @@ chic1 = Chicken()
 
 bird1 = Bird()
 # bird1.behavoiur(duck1)
-bird1.behavoiur(chic1)
+bird1.behavoiur(duck1)
 

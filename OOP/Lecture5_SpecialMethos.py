@@ -2,7 +2,7 @@
 
 """
 __init__
-__rept__
+__repr__
 __str__
 
 These are called dunder method
@@ -43,7 +43,7 @@ emp2 = Employee("Sonu","Satya", 50000)
 # print(emp1.lname)
 # print(emp1.fname)
 # print(emp1.pay)
-# print(emp1.fullname())
+print(emp1.fullname())
 
 # print(emp1.__str__())
 print(emp1.__repr__())
@@ -62,6 +62,7 @@ print(str(emp1))
 # Ex: add the 2 emp objects to reutn their salry?
 # more: https://docs.python.org/3/reference/datamodel.html#special-method-names
 print(emp1 + emp2)
+print(emp1.__add__(emp2))
 
 
 # print(len("test")) # print the length of the string
@@ -74,5 +75,5 @@ print(emp1 + emp2)
 # we have define __len__ method
 
 print(len(emp1))
-
+print(emp1.__len__())
 

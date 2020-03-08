@@ -7,7 +7,6 @@ str2 = "abbbbcdeee" # Answer: a
 str3 = "abc" # Answer: a
 
 """
-
 def count_alpha(str):
     
     count_words =[] # List to store only unqiue/distinct values

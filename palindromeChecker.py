@@ -30,12 +30,24 @@ def palindrome_checker(newString):
             Status = "String NOT Palindrome"
 
     return Status
+
+def palindrome_checker2(str):
+
+    newstr = str[::-1]
+    # print(newstr)
+
+    if newstr == str:
+        print ("Palindrome")
+    else:
+        print ("Not-Palindrome")
+
+
+# Driver Code
 i =0
 print ("--You will be 3 chance to check--")
 while i < 3:
     print("Enter your String to check")
     random_string = str(input())
 
-    print(palindrome_checker(random_string))
+    print(palindrome_checker2(random_string))
     i += 1
-

@@ -41,6 +41,20 @@ def palindrome_checker2(str):
     else:
         print ("Not-Palindrome")
 
+def palindrome_checker3(string):
+    
+    right = len(string) -1
+    left  = 0
+
+    while right >= left:
+        if not string[left] == string[right]:
+            return False
+        else:
+            right = right -1
+            left = left + 1
+
+        return True
+
 
 # Driver Code
 i =0
@@ -49,5 +63,5 @@ while i < 3:
     print("Enter your String to check")
     random_string = str(input())
 
-    print(palindrome_checker2(random_string))
+    print(palindrome_checker3(random_string))
     i += 1

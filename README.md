@@ -20,5 +20,5 @@ Author:    [Ashif Eqbal]
 Contact | Link
 ------------- | -------------
 LinkedIn:  |https://www.linkedin.com/in/ashif-eqbal-4ba85278/
-Pinterest:  | https://in.pinterest.com/ashifeqbal/pins/
+Twitter:  | https://twitter.com/AshifEqbal12
 Email:  | ashif8984@gmail.com

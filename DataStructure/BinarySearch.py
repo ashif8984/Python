@@ -27,7 +27,7 @@ def binary_search(list, num):
                 lower = mid
             else:
                 upper = mid
-
+        return False
 
 
 

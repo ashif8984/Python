@@ -2,7 +2,7 @@
 
 These programs are part of my intial hands-on with Python programming language.
 
-![](https://github.com/ashif8984/PythonScript/blob/master/images/b4a363bf5a9f957ce2e5ade082579cf2.jpg?raw=true)
+![](https://github.com/ashif8984/Python/blob/master/images/pexels-photo-169573.jpeg)
 
 # Python package needed:
 

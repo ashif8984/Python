@@ -37,17 +37,20 @@ print("-----For every number in the wrong place, you get a cow. For every one in
 print("-----The game ends when you get 4 bulls!")
 print("---Type exit at any prompt to exit.")
 print("--"*30)
+
+
+
 while counter:
+
     input_num = str(input("Guess the 4-digit number: "))
 
     if input_num == "exit":
         break
+
     compare_count = guess_func(orig_number,input_num )
     guesses += 1
 
     print("Cows = >" +str(compare_count[0])+ "  "+ "Bulls = >" +str(compare_count[1]) )
-
-    print()
 
     if compare_count[1] == 2:
         counter = False
@@ -55,13 +58,5 @@ while counter:
         break
 
     else:
-        print("You did not GUess it right")
+        print("You did not Guess it right")
 
-
-
-
-    
-    
-    # else:
-    #     print("Thats Correct !! :)")
-    #     counter = False

@@ -24,5 +24,5 @@ start = 1
 end = 100
 # print_prime(start, end)
 
-result = check_prime(13)
+result = check_prime(5)
 print(result)

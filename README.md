@@ -11,6 +11,7 @@ These programs are part of my intial hands-on with Python programming language.
 * from pythonds.basic.queue import Queue
 * import time
 * from pythonds.basic.deque import Deque
+* import functools
 
 # Run notebooks
 If you want to run these notebooks but without installing jupyter on your machine you can use Google Colab. 

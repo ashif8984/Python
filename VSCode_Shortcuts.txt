@@ -1,0 +1,3 @@
+
+CTRL + Shift + k = Delete the entire line
+Shift + Alt + up/down = Copy the above line

@@ -1,58 +1,46 @@
-
 # Binary Search
 
-"""
-       Search a sorted array by repeatedly dividing the search interval in half.
-       Begin with an interval covering the whole array.
-       If the value of the search key is less than the item in the middle of the interval,
-       narrow the interval to the lower half. Otherwise narrow it to the upper half.
-       Repeatedly check until the value is found or the interval is empty.''
-"""
 
-
-
-# Function to calculate the binary search element
 def binary_search(list, num):
-    lower = 0
-    upper = len(list)-1
+	
+	lower = 0
+	upper = len(list)
+	global mid
+	
+	while (lower<=upper):
 
-    while lower <= upper:
-        mid = (lower+upper) // 2
-        if list[mid] == num:
-            global pos
-            pos = mid
-            return True
-        else:
-            if list[mid]<num:
-                lower = mid
-            else:
-                upper = mid
-        return False
+		mid = (lower+upper) // 2
+
+		if list[mid] == num:
+			global pos
+			pos = mid
+			return True
+		else:
+			if list[mid] < num:
+				lower = mid
+			else:
+				upper = mid
+	return False
 
 
+list = [1,2,3,4,5]
+list.sort()
 
-print("-"*15)
-print ("Binary Search")
-print("-"*15)
 
-# User to input the list element
-print ("Enter a list element separated by space ")
+print("Original list : {}".format(list))
+print("--" * 10)
 
-# Converting the list of type int
-lista = [int(x) for x in input().split()]
+count = 0
+while (count < 4):
+	# print("--"*10)
+	num = int(input("Enter any number: "))
+	print()
+	if num in list:
+		result = binary_search(list, num)
+		print("Item {} is at {} postion".format(num, pos))
+	else:
+		print("item {} not found".format(num))
 
-#Display the Orginal List
-print(lista)
+	print("--"*10)
+	count += 1
 
-lista.sort()
-#Display the Sorted List
-print("After Sorting")
-print(lista)
-
-# Select the number you want to search from the list
-num = int(input("Select any number from your list:"))
-
-if binary_search(lista, num):
-    print("Found at", pos+1)
-else:
-    print("Not Found")

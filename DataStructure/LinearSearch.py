@@ -1,30 +1,39 @@
+#Linear Search
 
-"""
-Linear Search Algorithm
-"""
 
-def linearSearch(alist, num):
-	global pos
-	pos = 0
-	found = False
 
-	while pos < len(alist) and not found:
-		if alist[pos] == num:
-			found = True
-		else:
-			pos += 1
+def linear_search(list, num):
+	
+	for i in range(0, len(list)):
+		
+		if list[i] == num:
+			global result
+			result = i
+			return True
+		
 
-	return found
+list = [1,2,3,4,56,7,8]
+print(list)
 
-# Enter the list elements
-test_list = [1,6,7,3,4]
+count = 0
+while count< 4:
 
-# num to search for 
-num = 3
+	num = int(input("Enter a number"))
+	res = linear_search(list, num)
 
-if linearSearch(test_list,num):
-	print("Found at %d" %(pos))
-else:
-	print("not Found")
 
-#print(linearSearch(test_list,num))
+	if res ==True:
+		print("Item {} at {}".format(num, result))
+			
+	else:
+		print("Item {} not found".format(num))
+			
+
+	count +=1
+	print("--" *10)
+
+
+
+
+
+

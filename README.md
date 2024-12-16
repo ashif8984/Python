@@ -4,7 +4,7 @@ These programs are part of my intial hands-on with Python programming language.
 
 ![](https://github.com/ashif8984/Python/blob/master/images/pexels-photo-169573.jpeg)
 
-# Python package needed:
+### Python package needed:
 
 * import random
 * from prettytable import PrettyTable
@@ -13,7 +13,7 @@ These programs are part of my intial hands-on with Python programming language.
 * from pythonds.basic.deque import Deque
 * import functools
 
-# Run notebooks
+### Run notebooks
 If you want to run these notebooks but without installing jupyter on your machine you can use Google Colab. 
 
 Author:    [Ashif Eqbal]
